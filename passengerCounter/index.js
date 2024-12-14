@@ -9,6 +9,12 @@ function increment() {
   countEl.textContent = passengerCount;
 }
 
+// Resets passenger counter and count display
+function resetCount() {
+  passengerCount = 0;
+  countEl.textContent = passengerCount;
+}
+
 // Save count and display previous entries
 function save() {
   countSave = passengerCount + " - ";
